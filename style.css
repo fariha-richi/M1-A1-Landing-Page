@@ -7,7 +7,7 @@ button{
     cursor: pointer;
 }
 
-/* header section starts here*/
+/* header section starts here */
 .header{
     margin: 25px auto;
     margin-bottom: 0px;
@@ -29,9 +29,9 @@ button{
     border-radius: 8px;
     border: 2px solid rgb(196, 195, 195);
 }
-/*header section ends here*/
+/* header section ends here */
 
-/* banner section starts here*/
+/* banner section starts here */
 .banner{
     background-image: url(assets/Hero-bg.png);
     height: 80vh;
@@ -66,5 +66,82 @@ button{
     font-weight: bold;
     border-radius: 8px;
 }
-/*banner section ends here*/
+/* banner section ends here */
+
+/* main section starts here */
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* development section starts here */
+.development-section{
+    background-color: rgb(250, 250, 240);
+    margin-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    padding-top: 60px;
+}
+.development-title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.development-description{
+    padding: 0 150px 100px 150px;
+    margin: 20px auto;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(67, 66, 66);
+}
+.development-card-section{
+    margin: 50px 80px;
+    padding: 80px;
+    border-radius: 25px;
+    background-color: rgb(238, 245, 245);
+}
+
+.development-card-1{
+    display: flex;
+    justify-content: space-between;
+}
+.development-card-2{
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 80px 0px 80px 0px;
+}
+.development-card-3{
+    display: flex;
+    justify-content: space-between;
+}
+.development-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.dev-card-cont-2{
+    padding-left: 50px;
+}
+.development-card-title{
+    font-size: 30px;
+    padding-right: 200px;
+    font-weight: 700;
+    color: rgb(73, 73, 73);
+}
+.development-card-description{
+    margin: 20px 0px;
+    padding-right: 150px;
+    font-size: 16px;
+}
+.development-card-btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+/* development section ends here */
 
