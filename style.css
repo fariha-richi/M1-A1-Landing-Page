@@ -297,3 +297,20 @@ button{
 }
 /* support section ends here */
 
+/* footer section starts here */
+.footer{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 0px 150px;
+}
+.footer span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.icon{
+    display: flex;
+    gap:20px;
+}
+/* footer section ends here */
