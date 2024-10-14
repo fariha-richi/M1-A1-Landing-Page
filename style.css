@@ -18,7 +18,7 @@ button{
 }
 .nav-bar{
     display: flex;
-    gap: 800px;
+    gap: 710px;
 }
 .resume-button{
     padding: 10px 15px;
@@ -145,3 +145,33 @@ button{
 }
 /* development section ends here */
 
+/* inspiration section starts here */
+.inspiration-section{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inspiration-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.inspiration-description{
+    font-size: 16px;
+    margin: 20px 0px;
+    padding: 0px 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.inspiration-video{
+    margin-top: 10px;
+    padding: 20px;
+    border: 2px solid rgb(72, 71, 71);
+    border-radius: 15px;
+}
+.inspiration-video iframe{
+    border-radius: 15px;
+}
+/* inspiration section ends here */
