@@ -222,3 +222,35 @@ button{
 }
 /* my current target section ends here */
 
+/* my next target section starts here */
+.next-target{
+    margin: 100px 0px;
+}
+.next-target-box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.next-target-box-1{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid rgb(215, 213, 213);
+    border-radius: 15px;
+    box-shadow: inset;
+}
+.rcbg{
+    background-color: rgb(238, 244, 246);
+}
+.ndbg{
+    background-color: rgb(241, 247, 243);
+}
+.next-content p{
+    padding-right: 200px;
+}
+.ntp{
+    padding-left: 45px;
+}
+/* my next target section ends here */
